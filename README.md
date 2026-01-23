@@ -3,4 +3,4 @@ Este projeto é um script com a finalidade de arrumar diretórios repletos de ar
 
 # Tecnologias:
 - Python 
-- OS
+- OS / Shutil
