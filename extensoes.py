@@ -1,9 +1,9 @@
 categorias = {
     'documentos' : ['pdf', 'doc', 'docx', 'txt', 'md'],
-    'imagens' : ['jpeg', 'png', 'jpg', ],
-    'slides': ['pptx'],
-    'videos' : ['mp4', 'weba'],
-    'audios' : ['mp3'],
+    'imagens' : ['jpeg', 'png', 'jpg', 'webp', ],
+    'slides-tabelas': ['pptx', 'xlsx', 'xlsm'],
+    'videos' : ['mp4', 'weba', 'mkv', ],
+    'audios' : ['mp3', 'm4a', ],
     'compactados' : ['zip'],
     'exe-ini' : ['exe', 'msi'],
 

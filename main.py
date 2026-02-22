@@ -13,7 +13,7 @@ user_path = input("Insira o caminho do diretório: ")
 os.chdir(user_path)
 
 for item in os.scandir():
-    if (item.is_file):
+    if item.is_file():
         archives.append(item.name)
 
 try:
@@ -22,11 +22,11 @@ try:
 
     os.mkdir("Outros")
 
-except(e):
-    print(e)
-
-finally:
+except FileExistsError:
     print("Pastas já estão criadas")
+
+except FileNotFoundError:
+    print("Caminho não encontrado!")
 
 
 for i in range(len(archives)):
